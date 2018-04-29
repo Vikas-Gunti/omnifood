@@ -25,18 +25,26 @@ html{
      margin: 0 auto;  /*sets top and botton margin as 0.Left and right margin as auto. */
 }
 
+.box p {
+    font-size: 80%;
+    line-height: 145%;
+}
+
+section {
+    padding: 80px 0;
+     } 
+
+/*-------ICONS-----------*/
+.icon-big {
+    display: block;
+    font-size: 300%;
+    color: #e67e22;
+    margin-bottom: 10px;
+
+}
+
 /*------BUTTONS-------------*/
 
-h1{
-    margin-top: 0;  /*to make default normalize margin 0*/
-    color:#fff;
-    font-size: 220%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    margin-bottom: 20px;
-}
 .btn:link,
 .btn:visited{
    display: inline-block;
@@ -83,6 +91,48 @@ h1{
 }
 
 /*---------HEADINGS------------*/
+
+h1{
+    margin-top: 0;  /*to make default normalize margin 0*/
+    color:#fff;
+    font-size: 220%;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+h1,h2,h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/*------PARAGRAPHS--------*/
+.long-copy {
+    line-height: 145%;
+    width: 67%;
+    margin:0 15%;
+    
+}
 
 .hero-text-box {
     position: absolute;
