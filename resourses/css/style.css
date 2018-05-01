@@ -126,6 +126,39 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+/*---------------------------*/
+/*------MEALS---------------*/
+/*--------------------------*/
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
 /*------PARAGRAPHS--------*/
 .long-copy {
     line-height: 145%;
@@ -161,8 +194,7 @@ header {
 .main-nav {
         float: right;
         list-style: none;
-        margin-top: 55px;
-        
+        margin-top: 55px;      
 }
 .main-nav li {
     display: inline-block;
